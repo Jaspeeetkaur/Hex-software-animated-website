@@ -55,10 +55,10 @@ slider.on("slideChangeTransitionEnd", function() {
   });
   gsap.to(".slide-text span", 0.2, {
     x: 0,
-    delay: 0.1
+    delay: 0.2
   });
   gsap.to(".slide-text span", 0, {
-    x: "100px"
+    x: "120px"
   });
 
   gsap.to(".slide-number span", 0.2, {
